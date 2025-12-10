@@ -1,0 +1,7 @@
+local module = {
+	["Template"] = function(OnClientShootEventData, Character, Tool, Handle, Directions, FirePointObject, MuzzlePointObject, Misc)
+		
+	end,
+}
+
+return table.isfrozen(module) and module or table.freeze(module)
