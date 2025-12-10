@@ -1,0 +1,7 @@
+local module = {
+	["Maxwell"] = function(Tool, Humanoid, Heat, MaxHeat, Mag, AmmoPerMag, Ammo, MaxAmmo, ShootCounts, CurrentFireRate)
+		return ShootCounts <= 1
+	end,
+}
+
+return table.isfrozen(module) and module or table.freeze(module)
